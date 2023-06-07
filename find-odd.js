@@ -27,3 +27,4 @@ function findOdd(numbers){
 
 let inputNumbers = [1,2,4,1,5,3,2,2]
 let result = findOdd(inputNumbers.sort());
+//testing branches.
