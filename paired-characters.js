@@ -27,4 +27,4 @@ let inputString = 'qwertyuio';
 let finalResult = pairedCharacters(inputString);
 console.log(finalResult);
 
-//testing merge and branches.
+//testing merge and branches. kumanan's changes
