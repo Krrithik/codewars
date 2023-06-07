@@ -5,7 +5,7 @@ Examples:
 * 'abc' =>  ['ab', 'c_']
 * 'abcdef' => ['ab', 'cd', 'ef'] */
 
- function pairedCharacters(inputString) {
+ function pairedCharactersByKumanan(inputString) {
 
 
     let result = []
@@ -24,7 +24,7 @@ console.log(result);
 }
 
 let inputString = 'qwertyuio';
-let finalResult = pairedCharacters(inputString);
+let finalResult = pairedCharactersByKumanan(inputString);
 console.log(finalResult);
 
 //testing merge and branches. kumanan's changes
