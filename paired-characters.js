@@ -3,7 +3,9 @@
 Examples:
 
 * 'abc' =>  ['ab', 'c_']
-* 'abcdef' => ['ab', 'cd', 'ef'] */
+* 'abcdef' => ['ab', 'cd', 'ef']
+Added by Krrthik
+*/
 
  function pairedCharacters(inputString) {
 
