@@ -7,7 +7,7 @@ Examples:
 Added by Krrthik
 */
 
- function pairedCharacters(inputString) {
+ function pairedCharactersByKrrthik(inputString) {
 
 
     let result = []
@@ -26,7 +26,7 @@ console.log(result);
 }
 
 let inputString = 'qwertyuio';
-let finalResult = pairedCharacters(inputString);
+let finalResult = pairedCharactersByKrrthik(inputString);
 console.log(finalResult);
 
 //testing merge and branches.
