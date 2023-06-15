@@ -26,6 +26,8 @@ function digitalRoot(inputNumber) {
  
 
 
+
+
 /*  
   function digitalRoot(inputNumber) {
     if (inputNumber < 10) {
