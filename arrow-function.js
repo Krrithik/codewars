@@ -36,7 +36,7 @@ x = ['2', '3', '4'];
 
  const initialValue = 0;
  const sum1 = y.reduce(
-   (accumulator, currentValue) => accumulator + currentValue 
+   (accumulator, currentValue) => {return accumulator + currentValue; }
  );
  
 console.log(sum1);
