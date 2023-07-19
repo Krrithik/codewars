@@ -14,8 +14,6 @@ Testing: [1, 1, 1, 1] ==> 15
 Testing: [1, 0, 1, 1] ==> 11
 However, the arrays can have varying lengths, not just limited to 4. */
 
-
-
 /* function binaryToNumber(inputArray) {
   let result = 0;
   let arrlength = inputArray.length;
@@ -31,22 +29,15 @@ let inputArray = [1, 0, 1, 1];
 let result = binaryToNumber(inputArray);
 console.log(result); */
 
-
-
 function binaryToNumber(inputArray) {
   let result = 0;
 
+  inputArray.forEach((element, index) => {
+    result += element * Math.pow(2, inputArray.length - 1 - index);
+  });
 
-    inputArray.forEach((element , index) => {
-      result += element * Math.pow(2 , inputArray.length - 1 - index)
-      
-    });
-   
-
-   return result;
- 
-  };
-
+  return result;
+}
 
 let inputArray = [1, 1, 1, 1];
 let result = binaryToNumber(inputArray);
